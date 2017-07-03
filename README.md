@@ -2,7 +2,8 @@
 Tracks liked tweets of a Twitter user via web-app using Twitter PHP API &amp; MySQL.
 ## Requirements
 1. A Web Server with PHP 5.1+ and MySQL installed
-2. OAuth Access Token, OAuth Access Token Secret, Consumer Key and Secrets for Twitter Application (https://apps.twitter.com)
+2. TwitterAPIExchange.php from https://github.com/J7mbo/twitter-api-php/blob/master/TwitterAPIExchange.php
+3. OAuth Access Token, OAuth Access Token Secret, Consumer Key and Secrets for Twitter Application (https://apps.twitter.com)
 ## Usage
 1. Edit `config.awz.php` to your configuration, including Database Connection.
 2. Visit `index.php` to view already tracked liked tweets of the default user, or `index.php?u=USERNAME` for the desired username.
